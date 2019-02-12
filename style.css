@@ -1,0 +1,35 @@
+body{ background-color:#292929;}
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+#demo2{
+    height:100%;
+    position:relative;
+    overflow:hidden;
+    display: flex;
+
+}
+
+.animation-wrap{
+  position: relative;
+  width:50%;
+align-content: center;
+
+}
+.new-box{width:100px; height: 300px; position:relative; left:50%; top:100px; }
+
+circle {
+    visibility:hidden; 
+    opacity:0;
+  }
+  
+  #hero {
+    width:100px;
+    height: 100px;
+    position: absolute;
+    visibility:hidden; 
+    opacity:0;
+  }
